@@ -1,0 +1,30 @@
+{
+  "name": "nodejs-homework01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yborline/nodejs-homework01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yborline/nodejs-homework01/issues"
+  },
+  "homepage": "https://github.com/Yborline/nodejs-homework01#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "yargs": "^17.4.1"
+  },
+  "dependencies": {
+    "commander": "^9.1.0",
+    "uuid": "^8.3.2"
+  }
+}
