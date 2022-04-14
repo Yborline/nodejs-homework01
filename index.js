@@ -53,27 +53,3 @@ const invokeAction = async ({ action, id, name, email, phone }) => {
 // console.table(invokeAction(argv));
 
 invokeAction(argv);
-
-// invokeAction({ action: "getAll" });
-
-// idd = "8";
-
-// invokeAction({ action: "getById", id: idd });
-// const newData = {
-//   name: "Yarka",
-//   email: "borrline@gmail.com",
-//   phone: "066 999 13 66",
-// };
-
-// invokeAction({ action: "add", data: newData });
-// const updateId = "2fc782f9-7a55-4c57-8e9c-bb495cbe2be2";
-
-// const updateData = {
-//   name: "Mam",
-//   email: "borrline@gmail.com",
-//   phone: "066 999 13 66",
-// };
-
-// invokeAction({ action: "updateById", id: updateId, data: updateData });
-
-// invokeAction({ action: "removeById", id: updateId });
